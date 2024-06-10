@@ -1,0 +1,85 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.login-container{
+    height: 100vh;
+    background: #a7c5e1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 330px;
+    height: 400px;
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px #0004;
+}
+
+input{
+    padding: 10px 36px;
+    margin: 5px;
+    width: 210px;
+    outline-color: #0084ff;
+}
+
+.head{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.login{
+    padding: 12px 46px;
+    text-decoration: none;
+    background: linear-gradient(to right,#2be2cd, #0297b8);
+    color: white;
+}
+
+.pass{
+    margin-bottom: 10px;
+}
+.signup{
+    padding: 10px 46px;
+    text-decoration: none;
+    color: #0297b8;
+    border: 2px solid #0297b8;
+}
+
+.fgpass{
+    display: block;
+    text-decoration: none;
+    color: #001c80;
+    margin: 10px 0 0;
+}
+
+.login-button{
+    padding: 10px 120px;
+    text-decoration: none;
+    background: linear-gradient(to right,#2be2cd, #0297b8);
+    color: white;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.sin_up{
+    display: flex;
+    align-items: center;
+}
+
+.member{
+    margin-right: 5px;
+}
+
+.sign-now{
+    text-decoration: none;
+    color: #001c80;
+}
